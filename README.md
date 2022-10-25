@@ -8,6 +8,13 @@ Description service:
 ↪ Create session for users with cookies.
 ```
 
+## Demo
+
+- [Service](https://vinco-service.azurewebsites.net)
+  > example: https://vinco-service.azurewebsites.net/api/v1/user
+- [Client](https://vinco-client.vercel.app/)
+  > ![Vinco](https://i.ibb.co/Xxt2MtX/Screen-Shot-2022-10-24-at-23-12-51.png)
+
 **Structured and configured packages for the Vinco service.**
 
 ## Configured packages
@@ -91,13 +98,13 @@ The example structure is given in the [.env.example](.env.example) file
 git clone https://github.com/beenjii14/vinco-service.git
 
 # Install dependencies
-pnpm install
+npm install
 
 # Build the app
-pnpm build
+npm build
 
 # Run the app
-pnpm start
+npm start
 ```
 
 ## User endpoints
