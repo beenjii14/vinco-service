@@ -107,6 +107,11 @@ npm build
 npm start
 ```
 
+## API Documentation with Postman
+
+- [Local](https://documenter.getpostman.com/view/2307449/2s84LPwC8c)
+- [Production](https://documenter.getpostman.com/view/2307449/2s84LPwWvk)
+
 ## User endpoints
 
 | Endpoint            | HTTP   | Description       |
@@ -145,5 +150,7 @@ Run the eslint
 ```bash
 pnpm lint
 ```
+
+> Note: When testing the services on the production link the first time it may take a few seconds to respond as it is on a free server.
 
 ## [License MIT](LICENSE)
